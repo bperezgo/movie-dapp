@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solana_movies = "DW1cQJUcpQdX4cqfSWRUrCGM9t5kT5bbXAPD9ysPoep6"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/bperez/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
